@@ -4,10 +4,6 @@
 
 ---
 
-## In Progress
-
-- [ ] **Hauling contract template** — Sample agreement for quarries and contractors (payment terms, rates, liability, insurance requirements, scope of work, termination clauses)
-
 ## Not Started
 
 - [ ] **Invoice and BOL templates** — Professional invoice template and Bill of Lading ready to use from Day 1
@@ -32,3 +28,4 @@
 - [x] Truck comparison guide (tools/truck-comparison.md)
 - [x] Launch checklist (tools/launch-checklist.md)
 - [x] Office space research (tools/office-space-research.md)
+- [x] Hauling contract template (tools/hauling-contract-template.md)
