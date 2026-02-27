@@ -6,8 +6,6 @@
 
 ## Not Started
 
-- [ ] **Invoice and BOL templates** — Professional invoice template and Bill of Lading ready to use from Day 1
-- [ ] **CDL driver job posting** — Ready-to-post listing for Indeed/ZipRecruiter for Class A and Class B dump truck drivers in Mississippi
 - [ ] **Competitive analysis of MS haulers** — Research existing aggregate/dump truck companies in Jackson metro, Meridian, Vicksburg, DeSoto County. Fleet sizes, services, reputation, market gaps
 - [ ] **Live truck and trailer listings** — Search TruckPaper, CommercialTruckTrader for used Kenworth T880, Peterbilt 567, Mack Granite dump trucks and day cabs, plus belly dump and end dump trailers. 2018-2023 models, $60K-$150K, Southeast US
 - [ ] **Monthly cash flow model** — Month-by-month projection for first 12 months showing the 30-60 day payment gap, when cash gets tight, minimum reserve needed, accounts receivable aging
@@ -29,3 +27,6 @@
 - [x] Launch checklist (tools/launch-checklist.md)
 - [x] Office space research (tools/office-space-research.md)
 - [x] Hauling contract template (tools/hauling-contract-template.md)
+- [x] Invoice template (tools/invoice-template.md)
+- [x] Bill of Lading template (tools/bill-of-lading-template.md)
+- [x] CDL driver job posting (tools/cdl-driver-job-posting.md)
