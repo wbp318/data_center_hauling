@@ -6,7 +6,6 @@
 
 ## Not Started
 
-- [ ] **Live truck and trailer listings** — Search TruckPaper, CommercialTruckTrader for used Kenworth T880, Peterbilt 567, Mack Granite dump trucks and day cabs, plus belly dump and end dump trailers. 2018-2023 models, $60K-$150K, Southeast US
 - [ ] **Monthly cash flow model** — Month-by-month projection for first 12 months showing the 30-60 day payment gap, when cash gets tight, minimum reserve needed, accounts receivable aging
 
 ---
@@ -30,3 +29,4 @@
 - [x] Bill of Lading template (tools/bill-of-lading-template.md)
 - [x] CDL driver job posting (tools/cdl-driver-job-posting.md)
 - [x] Competitive analysis of MS haulers (research/06-competitive-analysis.md)
+- [x] Used equipment listings and market research (research/07-used-equipment-listings.md)
