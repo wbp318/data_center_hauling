@@ -9,27 +9,39 @@ This is a **business planning and research repository** (not a software codebase
 ## Repository Structure
 
 - `BUSINESS-PLAN.md` — Full 16-section business plan (the master document; other files elaborate on sections within it)
-- `README.md` — Public-facing summary of the business and repo
-- `TODO.md` — Task tracker for remaining work items
-- `research/` — Numbered deep-dive research files (01 through 07), covering projects, regulations, economics, trucks, office space, competitive analysis, and used equipment listings
-- `projects/` — Site-specific hauling plans for each of the 5 data center projects (xAI Southaven, AWS Madison County, Compass Meridian, AVAIO Brandon, AWS Vicksburg)
-- `tools/` — Operational documents: financial models (5-year P&L and monthly cash flow), contact tracker, truck comparison, launch checklist, office space research, hauling contract template, invoice and BOL templates, CDL driver job posting
+- `README.md` — Public-facing summary with financial tables, project table, equipment guide, and repo file tree
+- `TODO.md` — Task tracker; move items to "Completed" when finished
+- `research/` — Numbered deep-dive files (`01-` through `07-`), next would be `08-`
+- `projects/` — Site-specific hauling plans: `projects/<name>/hauling-plan.md` for each of the 5 data center projects
+- `tools/` — Operational documents: financial models, templates, contact tracker, checklists
 
-## Key Conventions
+## Sources of Truth
 
-- Research files use a numbered prefix (`01-`, `02-`, etc.) to indicate reading order
-- Each project under `projects/` has a single `hauling-plan.md` with site-specific intel, quarry distances, routes, and strategy
-- Financial figures should stay internally consistent across BUSINESS-PLAN.md, README.md, tools/financial-model.csv, and tools/monthly-cash-flow.md
-- The contact tracker (`tools/contact-tracker.md`) is the single source of truth for quarry, contractor, and agency contact info — update it rather than scattering contacts across other files
-- The competitive analysis (`research/06-competitive-analysis.md`) is the source of truth for competitor data — update it rather than duplicating competitor info in other files
+These files are canonical — update them directly rather than duplicating their data elsewhere:
 
-## When Editing
+| Data | Canonical file |
+|---|---|
+| Business plan (all sections) | `BUSINESS-PLAN.md` |
+| Financial projections (5-year P&L) | `tools/financial-model.csv` |
+| Monthly cash flow (Year 1) | `tools/monthly-cash-flow.md` |
+| Contacts (quarries, contractors, agencies) | `tools/contact-tracker.md` |
+| Competitor data | `research/06-competitive-analysis.md` |
+| Used equipment market data | `research/07-used-equipment-listings.md` |
 
-- Keep the README.md financial tables and project table in sync with BUSINESS-PLAN.md when either is updated
-- TODO.md tracks remaining deliverables — move items to "Completed" when finished
-- New research topics should follow the existing numbering scheme in `research/` (next would be `08-`)
-- New project hauling plans should follow the `projects/<name>/hauling-plan.md` pattern
-- New operational tools go in `tools/`
+## Cross-File Consistency Rules
+
+When financial figures, project details, or startup costs change, these files must stay in sync:
+
+- **Financial figures** → `BUSINESS-PLAN.md` ↔ `README.md` (Financial Overview tables) ↔ `tools/financial-model.csv` ↔ `tools/monthly-cash-flow.md`
+- **Project table** (names, locations, investment amounts, status) → `BUSINESS-PLAN.md` ↔ `README.md` ↔ `research/01-mississippi-data-center-projects.md`
+- **Equipment costs** → `BUSINESS-PLAN.md` ↔ `README.md` (Equipment Guide table) ↔ `tools/truck-comparison.md`
+
+## When Adding New Content
+
+- New research topics → `research/08-<topic>.md` (follow the numbered prefix scheme)
+- New project hauling plans → `projects/<name>/hauling-plan.md`
+- New operational tools/templates → `tools/`
+- New contacts → add to `tools/contact-tracker.md`, not scattered in other files
 
 ## Domain Context
 
