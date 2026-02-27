@@ -1,0 +1,28 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Markdown files
+*.md text diff=markdown
+
+# Ensure consistent line endings for text files
+*.txt text
+*.csv text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+
+# Linguist overrides — treat everything as documentation
+*.md linguist-documentation=false
+*.md linguist-detectable=true
