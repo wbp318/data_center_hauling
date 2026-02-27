@@ -1,28 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Markdown files
+# Markdown files — enable markdown-aware diffs
 *.md text diff=markdown
 
-# Ensure consistent line endings for text files
-*.txt text
+# Data files
 *.csv text
-*.json text
-*.xml text
-*.yaml text
-*.yml text
 
-# Denote all files that are truly binary and should not be modified
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.pdf binary
-*.zip binary
-*.gz binary
-*.tar binary
+# Exclude tooling from GitHub archives
+.claude/ export-ignore
+.gitattributes export-ignore
 
-# Linguist overrides — treat everything as documentation
+# Linguist overrides — show repo as Markdown (not "documentation-only")
 *.md linguist-documentation=false
 *.md linguist-detectable=true
