@@ -217,6 +217,15 @@ data_center_hauling/
     compass-meridian/hauling-plan.md                Compass $10B — 8-year build, supplier analysis
     avaio-brandon/hauling-plan.md                   AVAIO $6B — Yates GC, Phase 1 earthwork, synergies
     aws-vicksburg/hauling-plan.md                   AWS $3B — barge-to-site model, Entergy plant, port
+  research/
+    04-truck-and-trailer-specifications.md          Detailed specs, pricing, reliability for all models
+    05-office-space-and-yard-research.md            Listings, brokers, pricing across all 4 areas
+  tools/
+    financial-model.csv                             5-year P&L with Year 1-5 projections and breakeven
+    contact-tracker.md                              Every quarry, contractor, agency with phone/address
+    truck-comparison.md                             Head-to-head truck and trailer comparison guide
+    launch-checklist.md                             Step-by-step checklist from LLC to first load
+    office-space-research.md                        Low-cost office/yard options with Starlink setup
 ```
 
 ---
