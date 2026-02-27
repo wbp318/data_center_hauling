@@ -205,27 +205,33 @@ A Mississippi LLC providing aggregate and material hauling services to contracto
 data_center_hauling/
   BUSINESS-PLAN.md                                  Full 16-section business plan
   README.md                                         This file
+  TODO.md                                           Task tracker for remaining work items
   LICENSE                                           MIT License
-  .gitattributes                                    Git configuration
   research/
     01-mississippi-data-center-projects.md          All 5 projects, corridors, contractors, incentives
     02-hauling-regulations-and-startup.md           LLC, CDL, permits, insurance, taxes, quarries
     03-hauling-economics-and-pricing.md             Pricing, revenue, costs, margins, growth model
+    04-truck-and-trailer-specifications.md          Detailed specs, pricing, reliability for all models
+    05-office-space-and-yard-research.md            Listings, brokers, pricing across all 4 areas
+    06-competitive-analysis.md                      MS hauling competitors by region, market gaps
+    07-used-equipment-listings.md                   Live truck/trailer listings, dealers, buying strategy
   projects/
     xai-southaven/hauling-plan.md                   xAI $20B — site intel, quarries, routes, strategy
     aws-madison-county/hauling-plan.md              AWS $10B — contractors, volumes, priority actions
     compass-meridian/hauling-plan.md                Compass $10B — 8-year build, supplier analysis
     avaio-brandon/hauling-plan.md                   AVAIO $6B — Yates GC, Phase 1 earthwork, synergies
     aws-vicksburg/hauling-plan.md                   AWS $3B — barge-to-site model, Entergy plant, port
-  research/
-    04-truck-and-trailer-specifications.md          Detailed specs, pricing, reliability for all models
-    05-office-space-and-yard-research.md            Listings, brokers, pricing across all 4 areas
   tools/
     financial-model.csv                             5-year P&L with Year 1-5 projections and breakeven
+    monthly-cash-flow.md                            Month-by-month Year 1 cash flow with stress test
     contact-tracker.md                              Every quarry, contractor, agency with phone/address
     truck-comparison.md                             Head-to-head truck and trailer comparison guide
     launch-checklist.md                             Step-by-step checklist from LLC to first load
     office-space-research.md                        Low-cost office/yard options with Starlink setup
+    hauling-contract-template.md                    13-section hauling services agreement template
+    invoice-template.md                             Professional invoice template with load detail
+    bill-of-lading-template.md                      BOL template with weight, material, signatures
+    cdl-driver-job-posting.md                       Class A and Class B driver listings, ready to post
 ```
 
 ---

@@ -30,4 +30,3 @@
 - [x] Competitive analysis of MS haulers (research/06-competitive-analysis.md)
 - [x] Used equipment listings and market research (research/07-used-equipment-listings.md)
 - [x] Monthly cash flow model (tools/monthly-cash-flow.md)
-- [x] Used equipment listings and market research (research/07-used-equipment-listings.md)
