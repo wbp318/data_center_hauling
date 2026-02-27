@@ -203,14 +203,20 @@ A Mississippi LLC providing aggregate and material hauling services to contracto
 
 ```
 data_center_hauling/
-  BUSINESS-PLAN.md                              Full 16-section business plan
-  README.md                                     This file
-  LICENSE                                       MIT License
-  .gitattributes                                Git configuration
+  BUSINESS-PLAN.md                                  Full 16-section business plan
+  README.md                                         This file
+  LICENSE                                           MIT License
+  .gitattributes                                    Git configuration
   research/
-    01-mississippi-data-center-projects.md      All 5 projects, corridors, contractors, incentives
-    02-hauling-regulations-and-startup.md       LLC, CDL, permits, insurance, taxes, quarries
-    03-hauling-economics-and-pricing.md         Pricing, revenue, costs, margins, growth model
+    01-mississippi-data-center-projects.md          All 5 projects, corridors, contractors, incentives
+    02-hauling-regulations-and-startup.md           LLC, CDL, permits, insurance, taxes, quarries
+    03-hauling-economics-and-pricing.md             Pricing, revenue, costs, margins, growth model
+  projects/
+    xai-southaven/hauling-plan.md                   xAI $20B — site intel, quarries, routes, strategy
+    aws-madison-county/hauling-plan.md              AWS $10B — contractors, volumes, priority actions
+    compass-meridian/hauling-plan.md                Compass $10B — 8-year build, supplier analysis
+    avaio-brandon/hauling-plan.md                   AVAIO $6B — Yates GC, Phase 1 earthwork, synergies
+    aws-vicksburg/hauling-plan.md                   AWS $3B — barge-to-site model, Entergy plant, port
 ```
 
 ---
